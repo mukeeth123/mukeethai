@@ -110,16 +110,16 @@
 
 @keyframes portfolio-symbol-blink {
   0%, 100% {
-    filter: drop-shadow(0 0 4px rgba(0, 212, 255, 0.2));
+    filter: drop-shadow(0 0 2px rgba(0, 212, 255, 0.08));
   }
   22% {
-    filter: drop-shadow(0 0 14px rgba(0, 255, 136, 0.55));
+    filter: drop-shadow(0 0 8px rgba(0, 255, 136, 0.18));
   }
   48% {
-    filter: drop-shadow(0 0 18px rgba(0, 212, 255, 0.65));
+    filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.2));
   }
   72% {
-    filter: drop-shadow(0 0 12px rgba(124, 58, 237, 0.5));
+    filter: drop-shadow(0 0 8px rgba(124, 58, 237, 0.16));
   }
 }
 
@@ -296,30 +296,30 @@
   align-items: center;
   gap: 6px;
   padding: 5px 10px;
-  border: 1px solid rgba(0, 212, 255, 0.12);
+  border: 1px solid rgba(0, 212, 255, 0.055);
   border-radius: 999px;
-  background: rgba(2, 8, 18, 0.34);
-  color: rgba(220, 245, 255, 0.86);
+  background: rgba(2, 8, 18, 0.16);
+  color: rgba(190, 218, 228, 0.42);
   font-family: 'JetBrains Mono', monospace;
   font-size: clamp(10px, 0.9vw, 12px);
   font-weight: 600;
   letter-spacing: 0.03em;
   white-space: nowrap;
-  text-shadow: 0 0 16px rgba(0, 212, 255, 0.4);
-  box-shadow: inset 0 0 18px rgba(0, 212, 255, 0.04), 0 0 18px rgba(0, 212, 255, 0.08);
-  animation: portfolio-symbol-blink 1.25s steps(3, end) infinite;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.12);
+  box-shadow: inset 0 0 12px rgba(0, 212, 255, 0.018), 0 0 10px rgba(0, 212, 255, 0.035);
+  animation: portfolio-symbol-blink 1.6s steps(3, end) infinite;
 }
 
 .portfolio-ambient__ai-symbol:nth-child(2n) {
-  color: rgba(218, 255, 238, 0.86);
-  border-color: rgba(0, 255, 136, 0.12);
-  animation-duration: 0.95s;
+  color: rgba(194, 232, 212, 0.38);
+  border-color: rgba(0, 255, 136, 0.055);
+  animation-duration: 1.4s;
 }
 
 .portfolio-ambient__ai-symbol:nth-child(3n) {
-  color: rgba(226, 216, 255, 0.86);
-  border-color: rgba(124, 58, 237, 0.15);
-  animation-duration: 1.55s;
+  color: rgba(210, 204, 232, 0.36);
+  border-color: rgba(124, 58, 237, 0.06);
+  animation-duration: 1.9s;
 }
 
 @media (max-width: 768px) {
@@ -355,7 +355,7 @@
   .portfolio-ambient__ai-symbol {
     font-size: 9px;
     padding: 4px 8px;
-    opacity: 0.38;
+    opacity: 0.18;
   }
 }
 

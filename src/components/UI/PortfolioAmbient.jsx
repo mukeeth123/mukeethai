@@ -156,7 +156,7 @@ export default function PortfolioAmbient() {
             x: [0, 70, -28, 0],
             y: [0, -46, 18, 0],
             scale: [1, 1.18, 0.96, 1],
-            opacity: [0.12, 0.62, 0.18, 0.12],
+            opacity: [0.05, 0.24, 0.08, 0.05],
           }}
           transition={{
             duration: 2.6 + (i % 4) * 0.35,
