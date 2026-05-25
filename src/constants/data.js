@@ -1,0 +1,512 @@
+// Portfolio Content Data — SYED MUKEETH UR RAHIMAN
+
+export const personalInfo = {
+  name: 'Syed Mukeeth Ur Rahiman',
+  shortName: 'Mukeeth',
+  title: 'AI/ML Engineer | Agentic AI Systems | AI SaaS Builder',
+  tagline: 'Building Intelligent AI Systems, Automations & Future Enterprise Experiences',
+  email: 'mukeethr67@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/syed-mukeeth-ur-rahiman-349120244/',
+  github: 'https://github.com/mukheeth',
+  location: 'India',
+  university: 'Sri Venkateswara University, Tirupati',
+  degree: 'B.Tech (2019–2023)',
+  openToWork: true,
+  bio: `A next-generation AI engineer who transitioned from B.Tech into Artificial Intelligence, Machine Learning, Generative AI, Voice AI, enterprise AI ecosystems, Industrial AI, and immersive digital experiences. Building the future of intelligent enterprise platforms. Open to global opportunities & freelance AI projects.`,
+};
+
+export const heroRotatingTitles = [
+  'AI/ML Engineer',
+  'Generative AI Engineer',
+  'Agentic AI Developer',
+  'AI Automation Architect',
+  'Voice AI Systems Engineer',
+  'AI SaaS Builder',
+  'Enterprise AI Platform Builder',
+  'Industrial AI Expert',
+  'Seismic Intelligence Developer',
+  'AI Workflow Engineer',
+  'Full Stack AI Engineer',
+  'AI Solutions Architect',
+  'Creative Technologist',
+];
+
+export const heroSubtitle = 'AI/ML Engineer specializing in Agentic AI systems, MCP servers, mobile application development, enterprise AI platforms, and revenue-focused consulting. Open to global opportunities & freelance AI projects.';
+
+export const stats = [
+  { label: 'AI Projects', value: 20, suffix: '+', icon: '⚡' },
+  { label: 'Enterprise Systems', value: 8, suffix: '+', icon: '🏗️' },
+  { label: 'Automations', value: 30, suffix: '+', icon: '🤖' },
+  { label: 'Industries Served', value: 7, suffix: '+', icon: '🌐' },
+  { label: 'AI Agents Created', value: 15, suffix: '+', icon: '🧠' },
+  { label: 'Voice AI Deployments', value: 5, suffix: '+', icon: '🎙️' },
+];
+
+export const floatingServices = [
+  {
+    id: 'enterprise-ai',
+    title: 'Enterprise AI Platforms',
+    subtitle: 'Building Enterprise-Grade AI Platforms',
+    icon: '🏛️',
+    color: '#00d4ff',
+    features: ['Enterprise workflow systems', 'Scalable AI ecosystems', 'Operational intelligence', 'AI orchestration'],
+  },
+  {
+    id: 'saas',
+    title: 'AI SaaS Development',
+    subtitle: 'Delivering Mid-Level AI SaaS Products',
+    icon: '🚀',
+    color: '#00ff88',
+    features: ['AI dashboards', 'Automation platforms', 'Business ecosystems', 'Scalable SaaS'],
+  },
+  {
+    id: 'automation',
+    title: 'AI Automations',
+    subtitle: 'Automating Businesses with AI',
+    icon: '⚙️',
+    color: '#7c3aed',
+    features: ['Workflow automation', 'CRM automation', 'Sales automation', 'Operational AI'],
+  },
+  {
+    id: 'voice',
+    title: 'Voice AI Systems',
+    subtitle: 'AI Voice Agents & Automation',
+    icon: '🎙️',
+    color: '#00d4ff',
+    features: ['Conversational AI', 'AI calling systems', 'AI customer support', 'Voice workflows'],
+  },
+  {
+    id: 'marketing',
+    title: 'AI Digital Marketing',
+    subtitle: 'AI-Powered Digital Marketing',
+    icon: '📈',
+    color: '#00ff88',
+    features: ['AI content generation', 'SEO automation', 'Campaign orchestration', 'AI lead generation'],
+  },
+  {
+    id: 'websites',
+    title: 'Website Development',
+    subtitle: 'Modern Cinematic Websites',
+    icon: '🌐',
+    color: '#7c3aed',
+    features: ['Futuristic websites', 'Immersive portfolios', 'Interactive SaaS', '3D experiences'],
+  },
+  {
+    id: 'industrial',
+    title: 'Industrial AI',
+    subtitle: 'Industrial AI & Enterprise Intelligence',
+    icon: '🏭',
+    color: '#00d4ff',
+    features: ['Manufacturing intelligence', 'Operational monitoring', 'Predictive AI', 'Industrial agents'],
+  },
+  {
+    id: 'ev-ai',
+    title: 'Automobile & EV AI',
+    subtitle: 'AI Platforms for Automobiles & EVs',
+    icon: '⚡',
+    color: '#00ff88',
+    features: ['EV intelligence systems', 'Smart vehicle monitoring', 'Predictive maintenance', 'AI mobility'],
+  },
+  {
+    id: 'seismic',
+    title: 'Seismic Intelligence',
+    subtitle: 'Seismic Intelligence & Infrastructure',
+    icon: '🌍',
+    color: '#7c3aed',
+    features: ['Seismic visualization', 'Infrastructure intelligence', 'AI-powered monitoring', 'Operational analytics'],
+  },
+  {
+    id: 'mobile-app',
+    title: 'Mobile App Development',
+    subtitle: 'AI-Powered Mobile Applications',
+    icon: '📱',
+    color: '#00d4ff',
+    features: ['React Native apps', 'Flutter development', 'AI-integrated mobile', 'Cross-platform apps'],
+  },
+];
+
+export const serviceCategories = [
+  {
+    category: 'Enterprise AI',
+    color: '#00d4ff',
+    services: [
+      { title: 'Enterprise AI Platforms', desc: 'End-to-end enterprise AI ecosystems with workflow orchestration, scalable architecture, and operational intelligence.', icon: '🏛️' },
+      { title: 'AI Workflow Orchestration', desc: 'Multi-agent workflow systems, LangGraph pipelines, and intelligent process automation.', icon: '🔄' },
+      { title: 'Operational Intelligence', desc: 'Real-time AI monitoring, predictive analytics, and decision intelligence for enterprises.', icon: '📊' },
+      { title: 'Enterprise Automation', desc: 'End-to-end business process automation with AI at every touchpoint.', icon: '⚙️' },
+    ],
+  },
+  {
+    category: 'Generative AI',
+    color: '#00ff88',
+    services: [
+      { title: 'LLM Applications', desc: 'Custom LLM-powered apps using GPT-4, Claude, Gemini, Llama, and Mistral models.', icon: '🧠' },
+      { title: 'RAG Systems', desc: 'Retrieval-Augmented Generation with Pinecone, FAISS, and vector databases.', icon: '📚' },
+      { title: 'AI Agents & Multi-Agent Systems', desc: 'LangChain + LangGraph agentic architectures for autonomous task execution.', icon: '🤖' },
+      { title: 'Generative AI Products', desc: 'End-to-end generative AI application development for real business problems.', icon: '✨' },
+    ],
+  },
+  {
+    category: 'Voice AI',
+    color: '#7c3aed',
+    services: [
+      { title: 'AI Voice Agents', desc: 'Intelligent voice agents for customer support, scheduling, and business operations.', icon: '🎙️' },
+      { title: 'Conversational AI Platforms', desc: 'Natural language multi-turn conversation systems for enterprise use cases.', icon: '💬' },
+      { title: 'AI Calling Systems', desc: 'Automated AI calling platforms for sales, support, and outreach workflows.', icon: '📞' },
+      { title: 'AI Receptionist Systems', desc: 'AI-powered front-desk automation for hotels, hospitals, and enterprises.', icon: '🏨' },
+    ],
+  },
+  {
+    category: 'Industry AI',
+    color: '#00d4ff',
+    services: [
+      { title: 'Healthcare AI', desc: 'AI hospital systems, medical intelligence platforms, patient automation.', icon: '🏥' },
+      { title: 'Industrial AI & Agents', desc: 'Manufacturing intelligence, predictive maintenance, operational AI agents.', icon: '🏭' },
+      { title: 'Automobile & EV AI', desc: 'EV intelligence platforms, smart vehicle monitoring, AI mobility ecosystems.', icon: '⚡' },
+      { title: 'Seismic Intelligence', desc: 'Seismic visualization, infrastructure monitoring, layered Earth AI systems.', icon: '🌍' },
+    ],
+  },
+  {
+    category: 'AI SaaS',
+    color: '#00ff88',
+    services: [
+      { title: 'Mid-Level SaaS Products', desc: 'Full-stack AI SaaS applications with dashboards, APIs, and user management.', icon: '🚀' },
+      { title: 'AI Dashboards', desc: 'Real-time analytics dashboards with AI insights and predictive intelligence.', icon: '📈' },
+      { title: 'AI Business Platforms', desc: 'Complete business platforms powered by AI for industry-specific operations.', icon: '💼' },
+      { title: 'Automation Products', desc: 'AI-powered automation products for sales, marketing, and operations.', icon: '🔧' },
+    ],
+  },
+  {
+    category: 'Marketing & Web',
+    color: '#7c3aed',
+    services: [
+      { title: 'AI Digital Marketing', desc: 'AI-powered content generation, SEO automation, and campaign orchestration.', icon: '📣' },
+      { title: 'AI Outreach Platforms', desc: 'Automated outreach and lead generation platforms powered by AI.', icon: '🎯' },
+      { title: 'Cinematic Websites', desc: 'Award-winning 3D websites, immersive portfolios, and interactive SaaS platforms.', icon: '🌐' },
+      { title: 'Logistics & Travel AI', desc: 'Predictive logistics, AI travel assistants, and intelligent recommendation systems.', icon: '✈️' },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    id: 'ai-sales-intelligence',
+    title: 'AI Sales Intelligence Platform',
+    category: 'AI SaaS',
+    description: 'Autonomous AI lead qualification, sales insights, and recommendation orchestration for enterprise go-to-market teams.',
+    tech: ['LangGraph', 'GPT-4', 'FastAPI', 'Kafka', 'Redis'],
+    color: '#00ff88',
+    icon: '📈',
+    type: 'Revenue AI',
+  },
+  {
+    id: 'ai-healthcare-preauthorization',
+    title: 'AI Healthcare Preauthorization System',
+    category: 'Healthcare AI',
+    description: 'Policy validation and approval automation for insurance preauthorization workflows with RAG reasoning and intelligent rules.',
+    tech: ['FastAPI', 'FAISS', 'GPT-4', 'Python', 'Vector DB'],
+    color: '#00d4ff',
+    icon: '🏥',
+    type: 'Enterprise AI',
+  },
+  {
+    id: 'voice-ai-dental-automation',
+    title: 'Voice AI Dental Automation',
+    category: 'Voice AI',
+    description: 'Real-time AI voice system for dental clinics that books appointments, summarizes calls, and automates administrative workflow.',
+    tech: ['Speech AI', 'FastAPI', 'WebSockets', 'LangChain', 'Twilio'],
+    color: '#7c3aed',
+    icon: '🎙️',
+    type: 'Voice Automation',
+  },
+  {
+    id: 'customer-churn-prediction',
+    title: 'Customer Churn Prediction',
+    category: 'Business AI',
+    description: 'Predictive churn intelligence built for revenue teams with intervention recommendations and CRM orchestration.',
+    tech: ['XGBoost', 'Python', 'Kafka', 'FastAPI', 'SHAP'],
+    color: '#00d4ff',
+    icon: '📊',
+    type: 'AI Consulting',
+  },
+  {
+    id: 'ai-lawn-service-app',
+    title: 'AI Lawn Service Mobile App',
+    category: 'AI SaaS',
+    description: 'Intelligent service app with scheduling, route optimization, customer AI chat, and operations automation for lawn businesses.',
+    tech: ['React Native', 'FastAPI', 'Maps API', 'Stripe', 'LangChain'],
+    color: '#00ff88',
+    icon: '🌿',
+    type: 'Mobile AI',
+  },
+];
+
+export const projectDetails = {
+  'ai-sales-intelligence': {
+    id: 'ai-sales-intelligence',
+    title: 'AI Sales Intelligence Platform',
+    subtitle: 'Autonomous lead qualification, recommendation orchestration, and sales conversion automation for enterprise teams.',
+    industry: 'Sales Intelligence',
+    domain: 'Revenue Operations',
+    problem: 'Sales teams were spending too much time on manual lead qualification, low-signal outreach, and inefficient follow-up. Forecasting relied on disconnected spreadsheets and static CRM data.',
+    solution: 'Built a multi-agent AI sales intelligence platform with LangGraph orchestration, AI lead scoring, dynamic recommendation flows, and automated follow-up guidance. The platform connects CRM signals, email patterns, and contextual knowledge to prioritize the highest-converting opportunities.',
+    architecture: [
+      { title: 'Agentic Orchestration', desc: 'LangGraph coordinates analysis, scoring, content generation, and recommendation agents using structured tool calls and a shared memory context.' },
+      { title: 'Backend & Workflow', desc: 'FastAPI backend powers agent execution, orchestrates Kafka streams for event-driven scoring, and caches state in Redis for real-time responsiveness.' },
+      { title: 'RAG Decision Layer', desc: 'FAISS vector search enriches lead profiles with CRM data and playbook knowledge, enabling context-aware sales reasoning and recommendation generation.' },
+      { title: 'End User Experience', desc: 'Design surfaced conversion-ready prompts, lead priority dashboards, and automated outreach sequences for revenue and partnerships teams.' },
+    ],
+    techStack: ['LangGraph', 'FastAPI', 'Kafka', 'Redis', 'FAISS', 'GPT-4', 'React', 'Python'],
+    impact: [
+      { metric: '60%+', label: 'Manual sales effort reduced' },
+      { metric: '45%+', label: 'Lead conversion efficiency improved' },
+      { metric: '30%+', label: 'Faster qualification velocity' },
+    ],
+    features: [
+      'Autonomous lead qualification and scoring',
+      'Multi-agent sales recommendation engine',
+      'RAG-enhanced pipelines for CRM intelligence',
+      'Automated follow-up and outreach suggestions',
+      'Conversion-focused sales workflow dashboard',
+    ],
+  },
+  'ai-healthcare-preauthorization': {
+    id: 'ai-healthcare-preauthorization',
+    title: 'AI Healthcare Preauthorization System',
+    subtitle: 'AI-driven decision support for insurance preauthorization, policy validation, and approval automation.',
+    industry: 'Healthcare',
+    domain: 'Insurance Automation',
+    problem: 'Manual insurance preauthorization caused delays, inaccurate approvals, and high administrative overhead. Clinical teams lacked real-time policy insight and automated rationale tracking.',
+    solution: 'Delivered an AI preauthorization system that validates policy terms, predicts approval likelihood, automates CPT validation, and supports explainable decision reasoning with RAG-enhanced medical knowledge.',
+    architecture: [
+      { title: 'Policy Validation Engine', desc: 'FastAPI service validates clinical codes, CPT entries, and authorization rules before requests are routed to the decision workflow.' },
+      { title: 'Approval Prediction', desc: 'ML models scored approvals using historical claims, policy structures, and provider data to surface approval risk early.' },
+      { title: 'RAG Reasoning', desc: 'FAISS-powered retrieval provides the AI system with clinical guidelines, policy language, and regulatory context for accurate recommendations.' },
+      { title: 'Voice & Workflow', desc: 'Integrated voice AI workflows deliver hands-free approvals and spoken status updates for care coordinators.' },
+    ],
+    techStack: ['FastAPI', 'Python', 'FAISS', 'GPT-4', 'Vector DB', 'Clinical AI'],
+    impact: [
+      { metric: '70%+', label: 'Approval cycle time reduced' },
+      { metric: '50%+', label: 'Manual review load decreased' },
+      { metric: '88–92%', label: 'Clinical validation accuracy' },
+    ],
+    features: [
+      'Automated CPT code validation',
+      'Policy and coverage reasoning',
+      'Approval prediction and risk scoring',
+      'RAG-supported explainable decisions',
+      'Voice workflow for insurance operations',
+    ],
+  },
+  'voice-ai-dental-automation': {
+    id: 'voice-ai-dental-automation',
+    title: 'Voice AI Dental Automation',
+    subtitle: 'AI voice assistant for dental clinics that books appointments, summarizes calls, and routes patient intake automatically.',
+    industry: 'Voice AI',
+    domain: 'Healthcare Operations',
+    problem: 'Dental clinics were overwhelmed by incoming calls, manual appointment booking, and administrative follow-up. Teams lost time and patient experience suffered.',
+    solution: 'Built a real-time voice AI automation system that handles bookings, identifies caller intent, summarizes appointments, and triggers administrative workflows to reduce manual effort.' ,
+    architecture: [
+      { title: 'Speech Interface', desc: 'Live voice capture and speech-to-text pipeline powers intent classification, booking recognition, and structured transcription.' },
+      { title: 'AI Workflow Engine', desc: 'FastAPI connects voice sessions to automation agents, summarized call transcripts, and appointment scheduling services.' },
+      { title: 'Intent & Routing', desc: 'Intent classification routes conversations to booking, update requests, or patient follow-up workflows in real time.' },
+      { title: 'Operational Impact', desc: 'Detected appointments, follow-up actions, and billing markers to reduce clinic workload and improve patient responsiveness.' },
+    ],
+    techStack: ['Speech AI', 'FastAPI', 'WebSockets', 'LangChain', 'Twilio', 'Python'],
+    impact: [
+      { metric: '3+ hrs/day', label: 'Admin workload saved' },
+      { metric: '95%+', label: 'Voice intent accuracy' },
+      { metric: '70%+', label: 'Appointment handling automated' },
+    ],
+    features: [
+      'Real-time voice appointment booking',
+      'Call summarization and transcript capture',
+      'Intent-driven routing for clinic workflows',
+      'Follow-up automation for patient care',
+      'Voice-enabled task handoff and reporting',
+    ],
+  },
+  'customer-churn-prediction': {
+    id: 'customer-churn-prediction',
+    title: 'Customer Churn Prediction',
+    subtitle: 'Predictive churn intelligence that identifies at-risk customers and recommended retention actions.',
+    industry: 'Business AI',
+    domain: 'Revenue Retention',
+    problem: 'Customer churn was detected too late and retention teams lacked prescriptive interventions. Churn analysis was slow, opaque, and disconnected from CRM workflows.',
+    solution: 'Delivered a predictive churn platform using XGBoost, explainable SHAP insights, and automated triggers that connect retention recommendations into CRM and customer success workflows.' ,
+    architecture: [
+      { title: 'Predictive Pipeline', desc: 'Feature engineering, model training, and drift monitoring deliver robust churn signals for subscription and services businesses.' },
+      { title: 'Explainability Layer', desc: 'SHAP reports make churn drivers visible to revenue teams, enabling trusted insight and smarter outreach.' },
+      { title: 'Workflow Integration', desc: 'FastAPI APIs feed predictions into dashboards and automated task creation for customer success teams.' },
+      { title: 'Revenue Focus', desc: 'The platform surfaces retention opportunities, likely downgrades, and prioritized intervention actions.' },
+    ],
+    techStack: ['Python', 'XGBoost', 'SHAP', 'Kafka', 'FastAPI', 'Tableau'],
+    impact: [
+      { metric: '22%+', label: 'Retention lift achieved' },
+      { metric: '18%+', label: 'ML pipeline efficiency improved' },
+      { metric: '40%+', label: 'Faster churn identification' },
+    ],
+    features: [
+      'At-risk customer forecasting',
+      'Explainable churn insights',
+      'CRM-ready retention recommendations',
+      'Real-time prediction APIs',
+      'Revenue-preserving action triggers',
+    ],
+  },
+  'ai-lawn-service-app': {
+    id: 'ai-lawn-service-app',
+    title: 'AI Lawn Service Mobile App',
+    subtitle: 'Mobile SaaS experience with AI scheduling, route optimization, and customer operations automation.',
+    industry: 'Service AI',
+    domain: 'Field Service',
+    problem: 'Lawn service businesses struggled with manual scheduling, inefficient routes, and difficult customer communication. Operations were fragmented across calls, texts, and spreadsheets.',
+    solution: 'Built an AI-enabled mobile platform that automates service scheduling, route planning, customer messaging, and quoting to streamline field service operations and reduce overhead.' ,
+    architecture: [
+      { title: 'Mobile Experience', desc: 'React Native app provides technicians and customers with booking, service status, and AI-powered chat support.' },
+      { title: 'Optimization Core', desc: 'FastAPI backend calculates optimized routes, schedules visits based on availability, and updates dispatch automatically.' },
+      { title: 'AI Assistant', desc: 'LangChain-based assistant handles customer inquiries, quotes, and service escalation workflows.' },
+      { title: 'Payment & Operations', desc: 'Stripe integration and workflow automation ensures smooth payment capture and task handoff between field teams and dispatch.' },
+    ],
+    techStack: ['React Native', 'FastAPI', 'Maps API', 'Stripe', 'LangChain', 'Python'],
+    impact: [
+      { metric: '35%+', label: 'Route efficiency gain' },
+      { metric: '50%+', label: 'Scheduling time saved' },
+      { metric: '4.8/5', label: 'Customer satisfaction lift' },
+    ],
+    features: [
+      'AI scheduling and route optimization',
+      'Customer AI chat and booking support',
+      'Mobile dispatch and technician coordination',
+      'Automated quoting and payment flows',
+      'Service efficiency dashboard',
+    ],
+  },
+};
+
+export const experience = [
+  {
+    title: 'AI/ML Engineer — iOSYS Software',
+    role: 'AI Systems & Product Engineering',
+    period: 'Jul 2025 – Present',
+    highlights: [
+      'AI Sales Intelligence Platform: multi-agent lead qualification, LangGraph orchestration, RAG pipeline, FastAPI + Kafka + Redis backend, 60%+ manual effort reduction.',
+      'AI Healthcare Preauthorization System: policy validation, approval prediction, CPT compliance, RAG reasoning, clinical voice AI workflows.',
+      'Voice AI Automation for Dental Clinics: real-time voice booking, intent classification, summarization, 3+ hours saved per day.',
+      'Designed enterprise-grade intelligent systems for AI SaaS, healthcare, voice automation, and revenue operations.',
+    ],
+  },
+  {
+    title: 'Data Science Intern — AI Variant',
+    role: 'ML Research & Pipeline Improvements',
+    period: 'Sep 2023 – Sep 2024',
+    highlights: [
+      'Built CNN models (ResNet) for face detection and age/gender prediction with 88–92% accuracy.',
+      'Improved data pipelines by 18% through optimized preprocessing and model serving workflows.',
+      'Delivered production-ready ML components for computer vision and predictive analytics.',
+    ],
+  },
+];
+
+export const skills = [
+  // AI/ML Core
+  { name: 'Machine Learning', category: 'AI/ML Core', level: 92, color: '#00d4ff' },
+  { name: 'Deep Learning', category: 'AI/ML Core', level: 88, color: '#00d4ff' },
+  { name: 'NLP', category: 'AI/ML Core', level: 90, color: '#00d4ff' },
+  { name: 'Computer Vision', category: 'AI/ML Core', level: 75, color: '#00d4ff' },
+  { name: 'Predictive Analytics', category: 'AI/ML Core', level: 85, color: '#00d4ff' },
+  // Generative AI & Agents
+  { name: 'LangChain', category: 'Gen AI & Agents', level: 92, color: '#00ff88' },
+  { name: 'LangGraph', category: 'Gen AI & Agents', level: 88, color: '#00ff88' },
+  { name: 'RAG Systems', category: 'Gen AI & Agents', level: 90, color: '#00ff88' },
+  { name: 'GPT/Claude/Gemini', category: 'Gen AI & Agents', level: 93, color: '#00ff88' },
+  { name: 'Multi-Agent Systems', category: 'Gen AI & Agents', level: 85, color: '#00ff88' },
+  // Backend & Infrastructure
+  { name: 'FastAPI', category: 'Backend & Infra', level: 90, color: '#7c3aed' },
+  { name: 'Python', category: 'Backend & Infra', level: 95, color: '#7c3aed' },
+  { name: 'Docker', category: 'Backend & Infra', level: 80, color: '#7c3aed' },
+  { name: 'Kafka', category: 'Backend & Infra', level: 72, color: '#7c3aed' },
+  { name: 'Redis', category: 'Backend & Infra', level: 78, color: '#7c3aed' },
+  { name: 'WebSockets', category: 'Backend & Infra', level: 82, color: '#7c3aed' },
+  { name: 'GCP', category: 'Backend & Infra', level: 75, color: '#7c3aed' },
+  // Frontend & Mobile
+  { name: 'React / Next.js', category: 'Frontend', level: 85, color: '#00d4ff' },
+  { name: 'React Native', category: 'Frontend', level: 78, color: '#00d4ff' },
+  { name: 'Three.js', category: 'Frontend', level: 72, color: '#00d4ff' },
+  // Vector DB & Search
+  { name: 'Pinecone', category: 'Vector DB', level: 88, color: '#00ff88' },
+  { name: 'FAISS', category: 'Vector DB', level: 85, color: '#00ff88' },
+  { name: 'ChromaDB', category: 'Vector DB', level: 80, color: '#00ff88' },
+  // Automation
+  { name: 'n8n', category: 'Automation', level: 85, color: '#7c3aed' },
+  { name: 'Zapier', category: 'Automation', level: 78, color: '#7c3aed' },
+  { name: 'Make.com', category: 'Automation', level: 75, color: '#7c3aed' },
+];
+
+export const techStack = [
+  'Python', 'LangChain', 'LangGraph', 'FastAPI', 'React',
+  'Docker', 'Pinecone', 'FAISS', 'GPT-4', 'Claude',
+  'Gemini', 'n8n', 'Kafka', 'Redis', 'GCP',
+  'WebSockets', 'Next.js', 'React Native', 'PyTorch', 'HuggingFace',
+];
+
+export const about = {
+  story: [
+    {
+      phase: '2019–2023',
+      label: 'Mechanical Engineering',
+      title: 'B.Tech Mechanical Engineering',
+      desc: 'Completed B.Tech in Mechanical Engineering at Sri Venkateswara University, Tirupati, building strong systems thinking, analytical rigor, and the foundation for AI product engineering.',
+      icon: '🎓',
+      color: '#00d4ff',
+    },
+    {
+      phase: '2023',
+      label: 'The Pivot',
+      title: 'B.Tech to AI Transformation',
+      desc: 'Moved from B.Tech foundations directly into AI engineering, generative AI, agentic workflows, and intelligent product systems.',
+      icon: '⚡',
+      color: '#00ff88',
+    },
+    {
+      phase: '2023–2024',
+      label: 'Core AI Mastery',
+      title: 'ML, DL, NLP & Agentic AI',
+      desc: 'Mastered the full AI stack — including machine learning, deep learning, NLP, RAG systems, LangChain, LangGraph, and agentic AI orchestration.',
+      icon: '🧠',
+      color: '#7c3aed',
+    },
+    {
+      phase: '2024',
+      label: 'Enterprise Expansion',
+      title: 'Agentic AI, MCP Servers & Mobile Apps',
+      desc: 'Expanded into agentic AI systems, MCP server orchestration, mobile application development, voice AI, and industrial enterprise automation.',
+      icon: '🏛️',
+      color: '#00d4ff',
+    },
+    {
+      phase: 'Now',
+      label: 'Current Mission',
+      title: 'Building the Future of AI',
+      desc: 'Engineering next-generation AI ecosystems for healthcare, logistics, EVs, industrial operations, and enterprise platforms with agentic, mobile, and cloud-native systems.',
+      icon: '🚀',
+      color: '#00ff88',
+    },
+  ],
+  expertise: [
+    'Enterprise AI Platforms', 'Generative AI & LLMs', 'Agentic AI Systems',
+    'MCP Servers', 'Mobile Application Development', 'Voice AI & Conversational AI',
+    'Industrial AI Agents', 'AI Digital Marketing', 'Seismic Intelligence',
+    'EV & Automobile AI', 'AI SaaS Products', 'Multi-Agent Orchestration',
+    'RAG Architectures', 'AI Workflow Engineering',
+  ],
+  industries: [
+    { name: 'Healthcare', icon: '🏥', desc: 'Hospital AI systems, medical intelligence, patient automation' },
+    { name: 'Logistics', icon: '📦', desc: 'Predictive logistics, fleet intelligence, operational AI' },
+    { name: 'Industrial', icon: '🏭', desc: 'Manufacturing intelligence, predictive monitoring, operational agents' },
+    { name: 'Automobile & EV', icon: '⚡', desc: 'EV intelligence, smart vehicle monitoring, AI mobility' },
+    { name: 'Seismic & Infrastructure', icon: '🌍', desc: 'Seismic visualization, infrastructure monitoring, layered Earth AI' },
+    { name: 'Travel', icon: '✈️', desc: 'AI travel assistants, recommendation systems, intelligent booking' },
+    { name: 'Enterprise SaaS', icon: '🚀', desc: 'Scalable AI SaaS platforms, automation ecosystems, AI dashboards' },
+  ],
+};
