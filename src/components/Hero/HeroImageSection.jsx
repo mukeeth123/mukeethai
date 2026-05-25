@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FLOATING_LABELS } from './heroData';
+import profileImage from '../../../image_2.png';
 
 export default function HeroImageSection() {
   return (
@@ -48,7 +49,7 @@ export default function HeroImageSection() {
             <circle cx="300" cy="300" r="125" strokeOpacity="0.1" />
           </g>
         </svg>
-        <img src="/image_2.png" alt="Mukeeth - AI/ML engineer" className="hero__profile-img" />
+        <img src={profileImage} alt="Mukeeth - AI/ML engineer" className="hero__profile-img" />
         <div className="hero__profile-glow" aria-hidden />
       </motion.div>
     </motion.div>
