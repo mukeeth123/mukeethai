@@ -9,10 +9,10 @@ export default function HeroHeadline() {
       transition={{ duration: 0.55, delay: 0.18 }}
     >
       <span className="hero__headline-line">
-        I explore how <span className="hero-gradient-word">AI</span> can reason,
+        SYED <span className="hero-gradient-word">MUKEETH</span> UR RAHIMAN
       </span>
       <span className="hero__headline-line hero__headline-line--secondary">
-        adapt, and <span className="hero-gradient-word">evolve</span>
+         <span className="hero-gradient-word"></span>
       </span>
     </motion.h1>
   );
